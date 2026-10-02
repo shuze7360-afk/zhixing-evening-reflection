@@ -1,0 +1,79 @@
+{
+  "name": "evening-reflection",
+  "version": "0.1.0",
+  "private": true,
+  "description": "知行 — Windows 晚间复盘助手",
+  "main": "dist/main/index.js",
+  "scripts": {
+    "handoff:check": "node scripts/handoff-check.mjs",
+    "state:render": "node scripts/render-state.mjs",
+    "candidate:freeze": "node scripts/freeze-candidate.mjs",
+    "dev": "node scripts/dev.mjs",
+    "dev:renderer": "vite",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.renderer.json",
+    "build:main": "tsc -p tsconfig.json && node scripts/build-preload.mjs",
+    "build:renderer": "vite build",
+    "test:smoke": "npm run build:main --silent && node --test tests/er002-smoke.mjs",
+    "dist": "npm run build:renderer --silent && npm run build:main --silent && electron-builder --win nsis --x64",
+    "mcp:build": "esbuild mcp/src/server.ts --bundle --platform=node --format=esm --outfile=mcp/server.mjs --banner:js=\"import { createRequire } from 'node:module'; const require = createRequire(import.meta.url);\"",
+    "test": "node --test tests/er002-smoke.mjs tests/err01-reliability.mjs tests/err02-product.mjs tests/err03-round2.mjs tests/err04-round3.mjs tests/err05-round4.mjs tests/err06-round5.mjs tests/err07-round6.mjs tests/err08-round7.mjs tests/err09-round8.mjs tests/err10-round9.mjs tests/err11-round10.mjs tests/mcp-smoke.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "concurrently": "^10.0.5",
+    "electron": "^44.5.1",
+    "electron-builder": "^26.15.3",
+    "esbuild": "^0.28.2",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1"
+  },
+  "dependencies": {
+    "zod": "^4.6.5"
+  },
+  "build": {
+    "appId": "com.zhixing.evening-reflection",
+    "productName": "知行",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "resources",
+        "to": "resources"
+      }
+    ],
+    "asar": true,
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "resources/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "artifactName": "知行-Setup-${version}.${ext}",
+      "shortcutName": "知行"
+    }
+  }
+}

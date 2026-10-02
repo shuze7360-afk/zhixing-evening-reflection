@@ -1,0 +1,34 @@
+# 依赖与构建产物
+node_modules/
+dist/
+out/
+build/
+release/
+
+# 运行数据与日志（数据库属用户数据，不入仓库）
+*.log
+logs/
+*.db
+*.sqlite
+*.sqlite3
+data/
+userData/
+
+# 密钥与私密信息：一律不入库（安全红线见 AGENTS.md 第五节）
+.env
+.env.*
+*.key
+*.pem
+secrets/
+private/
+conversations/
+
+# 临时文件与系统文件
+tmp/
+*.tmp
+.DS_Store
+Thumbs.db
+nul
+
+# 临时补丁脚本（整改过程产物，不入库）
+.tmp-*

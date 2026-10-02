@@ -1,0 +1,48 @@
+{
+  "batch": "naval-batch1",
+  "fetched_at": "2026-10-01",
+  "source_base": "https://www.navalmanack.com/almanack-of-naval-ravikant",
+  "method": "WebFetch 章节页逐字摘录（AI 辅助提取）。引文为页面实际出现的文字；建议后续人工打开原页复核。",
+  "snapshots": [
+    {
+      "id": "snap-prioritize-and-focus",
+      "chapter": "PRIORITIZE AND FOCUS",
+      "url": "https://www.navalmanack.com/almanack-of-naval-ravikant/prioritize-and-focus",
+      "quotes": [
+        { "text": "You have to say no to everything and free up your time so you can solve the important problems.", "position": "Play stupid games, win stupid prizes." },
+        { "text": "Spend more time making the big decisions.", "position": "Play stupid games, win stupid prizes." },
+        { "text": "Value your time at an hourly rate, and ruthlessly spend to save time at that rate.", "position": "加粗引言（本卡未采用：产品明确不以理想时薪武断判断价值，见 PRODUCT §3）" }
+      ]
+    },
+    {
+      "id": "snap-specific-knowledge",
+      "chapter": "FIND AND BUILD SPECIFIC KNOWLEDGE",
+      "url": "https://www.navalmanack.com/almanack-of-naval-ravikant/find-and-build-specific-knowledge",
+      "quotes": [
+        { "text": "Specific knowledge cannot be taught, but it can be learned.", "position": "同名小节标题" },
+        { "text": "No one can compete with you on being you. Most of life is a search for who and what needs you the most.", "position": "章节正文引用/推文部分" },
+        { "text": "Escape competition through authenticity.", "position": "讨论 authenticity 的段落" }
+      ]
+    },
+    {
+      "id": "snap-long-term-games",
+      "chapter": "PLAY LONG-TERM GAMES WITH LONG-TERM PEOPLE",
+      "url": "https://www.navalmanack.com/almanack-of-naval-ravikant/play-long-term-games-with-long-term-people",
+      "quotes": [
+        { "text": "All the returns in life, whether in wealth, relationships, or knowledge, come from compound interest.", "position": "开篇问答" },
+        { "text": "Compound interest also happens in your reputation. If you have a sterling reputation and you keep building it for decades upon decades, people will notice.", "position": "开篇问答" },
+        { "text": "When you find the right thing to do, when you find the right people to work with, invest deeply.", "position": "Intentions don't matter. Actions do. That's why being ethical is hard." }
+      ]
+    },
+    {
+      "id": "snap-judgment",
+      "chapter": "GET PAID FOR YOUR JUDGMENT",
+      "url": "https://www.navalmanack.com/almanack-of-naval-ravikant/get-paid-for-your-judgment",
+      "quotes": [
+        { "text": "I would love to be paid purely for my judgment, not for any work.", "position": "章节正文" },
+        { "text": "Imagine someone comes along who demonstrably has slightly better judgment. They're right 85 percent of the time instead of 75 percent.", "position": "章节正文" },
+        { "text": "Judgment—especially demonstrated judgment, with high accountability and a clear track record—is critical.", "position": "章节正文" }
+      ]
+    }
+  ]
+}

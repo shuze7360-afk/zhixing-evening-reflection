@@ -1,0 +1,88 @@
+{
+  "batch": "naval-batch1",
+  "fetched_at": "2026-10-01",
+  "source_base": "https://www.navalmanack.com/almanack-of-naval-ravikant",
+  "note": "首批原则（覆盖：时间取舍、专长、长期关系、判断产出）。引文为章节页逐字摘录（AI 辅助提取，建议后续人工复核原文页）；中文说明均为解读，不是原文。",
+  "cards": [
+    {
+      "key": "focus-say-no",
+      "theme": "时间取舍",
+      "quote_en": "You have to say no to everything and free up your time so you can solve the important problems.",
+      "source_url": "https://www.navalmanack.com/almanack-of-naval-ravikant/prioritize-and-focus",
+      "position": "Prioritize and Focus · Play stupid games, win stupid prizes.",
+      "snapshot": "snap-prioritize-and-focus",
+      "interpretation_cn": "时间的价值来自拒绝：把省下来的时间留给真正重要的问题，而不是被琐事填满。复盘时可以问：今天有没有为不重要的事说“好”？",
+      "boundary_cn": "不是教人逃避责任。健康、既有承诺与他人依赖的事先安排好，再谈拒绝；拒绝的对象是“低价值的忙碌”，不是人。"
+    },
+    {
+      "key": "focus-big-decisions",
+      "theme": "时间取舍",
+      "quote_en": "Spend more time making the big decisions.",
+      "source_url": "https://www.navalmanack.com/almanack-of-naval-ravikant/prioritize-and-focus",
+      "position": "Prioritize and Focus · Play stupid games, win stupid prizes.",
+      "snapshot": "snap-prioritize-and-focus",
+      "interpretation_cn": "决策质量比数量重要：做什么方向、和谁共事、投入什么，值得花不成比例的时间想清楚；日常小事用默认规则快速通过即可。",
+      "boundary_cn": "适用于可逆性低、影响面大的决定。别把这句用成“事事都要深度思考”的完美主义借口。"
+    },
+    {
+      "key": "specific-knowledge-learned",
+      "theme": "专长",
+      "quote_en": "Specific knowledge cannot be taught, but it can be learned.",
+      "source_url": "https://www.navalmanack.com/almanack-of-naval-ravikant/find-and-build-specific-knowledge",
+      "position": "Find and Build Specific Knowledge · 同名小节",
+      "snapshot": "snap-specific-knowledge",
+      "interpretation_cn": "真正的专长无法被标准化教授，只能跟随好奇心在实践中长出来。评估方向时问“这是否让我独一无二”，而不是“哪门课能教我”。",
+      "boundary_cn": "不意味着拒绝系统学习：基础技能仍需刻意训练，专长是基础之上长出的差异点。"
+    },
+    {
+      "key": "specific-knowledge-authenticity",
+      "theme": "专长",
+      "quote_en": "Escape competition through authenticity.",
+      "source_url": "https://www.navalmanack.com/almanack-of-naval-ravikant/find-and-build-specific-knowledge",
+      "position": "Find and Build Specific Knowledge · 讨论 authenticity 的段落",
+      "snapshot": "snap-specific-knowledge",
+      "interpretation_cn": "在“像别人”的赛道上只能内卷；把自己的真实特质带进做的事里，比较优势才成立。",
+      "boundary_cn": "真实不等于任性：前提是你的特质确有人需要——用市场反馈校验，而不是自我感觉。"
+    },
+    {
+      "key": "longterm-compounding",
+      "theme": "长期关系",
+      "quote_en": "All the returns in life, whether in wealth, relationships, or knowledge, come from compound interest.",
+      "source_url": "https://www.navalmanack.com/almanack-of-naval-ravikant/play-long-term-games-with-long-term-people",
+      "position": "Play Long-term Games with Long-term People · 开篇问答",
+      "snapshot": "snap-long-term-games",
+      "interpretation_cn": "财富、关系、知识的回报都来自复利：选择能累积的事做，避免频繁清零重来。",
+      "boundary_cn": "复利需要时间与坚持，但不是拒绝一切变化；发现方向性错误时及时止损同样是理性。"
+    },
+    {
+      "key": "longterm-invest-deeply",
+      "theme": "长期关系",
+      "quote_en": "When you find the right thing to do, when you find the right people to work with, invest deeply.",
+      "source_url": "https://www.navalmanack.com/almanack-of-naval-ravikant/play-long-term-games-with-long-term-people",
+      "position": "Play Long-term Games with Long-term People · Intentions don't matter. Actions do.",
+      "snapshot": "snap-long-term-games",
+      "interpretation_cn": "找到对的事和对的人之后要深度投入——时间、真诚与持续跟进；浅尝辄止拿不到复利。",
+      "boundary_cn": "“对”要有证据：先经过长期相处或小型合作的验证，不是一时感动就 all-in。"
+    },
+    {
+      "key": "judgment-paid-for",
+      "theme": "判断产出",
+      "quote_en": "I would love to be paid purely for my judgment, not for any work.",
+      "source_url": "https://www.navalmanack.com/almanack-of-naval-ravikant/get-paid-for-your-judgment",
+      "position": "Get Paid for Your Judgment",
+      "snapshot": "snap-judgment",
+      "interpretation_cn": "最高杠杆是把时间卖给判断而非工时：锻炼“看对问题、选对方向”的能力，长期回报高于堆时长。",
+      "boundary_cn": "判断力需要问责与记录支撑——错了要复盘；不是口头的远见，更不是拿它逃避动手。"
+    },
+    {
+      "key": "judgment-demonstrated",
+      "theme": "判断产出",
+      "quote_en": "Judgment—especially demonstrated judgment, with high accountability and a clear track record—is critical.",
+      "source_url": "https://www.navalmanack.com/almanack-of-naval-ravikant/get-paid-for-your-judgment",
+      "position": "Get Paid for Your Judgment",
+      "snapshot": "snap-judgment",
+      "interpretation_cn": "判断的价值在于“被验证过”：把决策与依据记下来、接受结果检验，才构成可信的判断力。",
+      "boundary_cn": "对个人复盘的启示是记录决策与结果、允许事后核对；不是事后自夸，也不是只记对的、忘错的。"
+    }
+  ]
+}
